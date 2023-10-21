@@ -25,7 +25,7 @@ from opencensus.ext.flask.flask_middleware import FlaskMiddleware
 stats = stats_module.stats
 view_manager = stats.view_manager
 
-app_insight_connection_string='InstrumentationKey=33960d71-35f2-4aa9-9ce3-15314c89132f'
+app_insight_connection_string='InstrumentationKey=8e1d4b75-100b-4e46-870b-a8b34f040957'
 
 # Logging
 config_integration.trace_integrations(['logging'])
